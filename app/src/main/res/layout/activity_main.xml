@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/securitysurvName"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Security Surveillance App"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/camViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Security Camera View"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/historyLogsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="History Logs View"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Close App"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
